@@ -11,8 +11,6 @@ body {
     text-shadow: 1px 0px 0.5px #969cc7; }
   .navbar .nav-link {
     color: #969cc7 !important; }
-  .navbar .navbar-opened {
-    background-color: #feff3945 !important; }
 
 .nav-img {
   height: 100vh;

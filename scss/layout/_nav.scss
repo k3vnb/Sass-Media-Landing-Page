@@ -1,0 +1,13 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  background-color: $yellow!important;
+  .navbar-brand {color: $darkpink;
+    text-shadow: 1px 0px .5px $blue-tier-two;}
+  .nav-link {color: $blue-tier-two!important;}
+}
+.nav-img {
+  height: 100vh;
+  width: 100%;
+  z-index: 2;
+}
