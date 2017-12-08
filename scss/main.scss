@@ -2,6 +2,9 @@
 @import "abstracts/module";
 @import "layout/module";
 
+@mixin brand-text {color: $darkpink;
+  text-shadow: 1px 0px .5px $blue-tier-two;}
+
 .containers {
   padding: 3vh 3vw;
   // margin: 0 3vw;
@@ -26,4 +29,13 @@
     text-align: right;}
   .card-texts {
     padding: 3% 8%;}
+}
+
+.footer {
+  width: 100%;
+  padding: 1vh 3vw;
+  background-color: $yellow;
+  ul {list-style: none;}
+  li:first-child {margin-bottom: 3px;
+    @include brand-text;}
 }
