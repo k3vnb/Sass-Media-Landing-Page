@@ -1,0 +1,17 @@
+$yellow: #feff39;
+$pink: #ffb1bf;
+$darkpink: #fe71a6;
+$gold: #ffb1bf;
+$blue: #5d91cb;
+$yellow-transparent: #feff3945;
+$yellow-tier-one: mix($yellow, $yellow, 65%);
+$pink-tier-one: mix($pink, $yellow, 65%);
+$darkpink-tier-one: mix($darkpink, $yellow, 65%);
+$gold-tier-one: mix($gold, $yellow, 65%);
+$blue-tier-one: mix($blue, $yellow, 65%);
+$yellow-tier-two: mix($yellow, $pink, 65%);
+$pink-tier-two: mix($pink, $pink, 65%);
+$darkpink-tier-two: mix($darkpink, $pink, 65%);
+$gold-tier-two: mix($gold, $pink, 65%);
+$blue-tier-two: mix($blue, $pink, 65%);
+$yellow-tier-three: mix($yellow, $gold, 65%);

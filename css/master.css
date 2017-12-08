@@ -2,20 +2,35 @@ body {
   box-sizing: border-box;
   width: 100vw; }
 
-.masthead {
-  width: 100%;
-  height: 50vh;
-  background-image: url(../img/mancini.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-
 .navbar {
-  background-color: #fee468 !important; }
+  width: 100%;
+  position: fixed;
+  background-color: #feff39 !important; }
   .navbar .navbar-brand {
     color: #fe71a6;
     text-shadow: 1px 0px 0.5px #969cc7; }
   .navbar .nav-link {
     color: #969cc7 !important; }
+  .navbar .navbar-opened {
+    background-color: #feff3945 !important; }
+
+.nav-img {
+  height: 100vh;
+  width: 100%;
+  z-index: 2; }
+
+.masthead {
+  width: 100%;
+  height: 50vh;
+  padding-top: 10px;
+  background-image: url(../img/mancini.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .masthead .masthead-text {
+    padding: 37vh 5vw 1vh 50vw;
+    color: #fee468;
+    text-align: center;
+    text-shadow: 0px 1px 3px #969cc7; }
 
 /*# sourceMappingURL=master.css.map */
