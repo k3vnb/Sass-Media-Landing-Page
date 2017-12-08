@@ -5,6 +5,7 @@ body {
 .navbar {
   width: 100%;
   position: fixed;
+  z-index: 2;
   background-color: #feff39 !important; }
   .navbar .navbar-brand {
     color: #fe71a6;
@@ -30,5 +31,30 @@ body {
     color: #fee468;
     text-align: center;
     text-shadow: 0px 1px 3px #969cc7; }
+
+.containers {
+  padding: 3vh 3vw;
+  background-color: #ffb1bfa1; }
+
+.card {
+  width: 100%;
+  margin-bottom: 10px;
+  min-height: 15vh;
+  border: 0;
+  border-radius: 5px; }
+  .card:hover {
+    background-color: #ffb1bf;
+    box-shadow: 0px 0px 5px #5d91cb; }
+  .card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center; }
+  .card .card-2 {
+    text-align: right; }
+  .card .card-texts {
+    padding: 3% 8%; }
 
 /*# sourceMappingURL=main.css.map */
