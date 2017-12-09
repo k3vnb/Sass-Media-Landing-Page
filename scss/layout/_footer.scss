@@ -7,6 +7,4 @@
   .brand {margin-bottom: 3px;
     font-size: 1.2em;
     @include brand-text;}
-  @media #{$md-view} {
-  }
 }

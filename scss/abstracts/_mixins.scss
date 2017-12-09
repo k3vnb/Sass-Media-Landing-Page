@@ -1,0 +1,4 @@
+@mixin brand-text {color: $darkpink;
+  text-shadow: 1px 0px .5px $blue-tier-two;}
+@mixin card-img-bg {background-repeat: no-repeat;
+    background-size: contain;}

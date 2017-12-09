@@ -16,3 +16,6 @@ $darkpink-tier-two: mix($darkpink, $pink, 65%);
 $gold-tier-two: mix($gold, $pink, 65%);
 $blue-tier-two: mix($blue, $pink, 65%);
 $yellow-tier-three: mix($yellow, $gold, 65%);
+
+$md-view: "(min-width: 768px) and (max-width: 1023px)";
+$lg-view: "(min-width: 1024px)";
