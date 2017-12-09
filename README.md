@@ -1,3 +1,8 @@
+# Squash
+### This  project incorporates Sass, a compiler for CSS. 12/8/17
+### by **Kevin Boyle**
+
+### Pre-work
 1. Thoughts and Feedback
 The best thing about taking a designated amount of time to plan with a partner is that is enhances modular thinking throughout the project. Recognizing that the sections of the page can behave as independent pieces & co-dependent pieces, or that certain components may be repeated at various points on the page, allows a more universal scope of the project and streamlines the creation and revision processes.  It also allows for a more efficient "outside-in" approach to the creation of the page, which I find extremely effective.
 
@@ -17,3 +22,18 @@ Sass implementation was a bit odd in our project - we started the day off on Wed
 
 
 3. Today's project will be different in the sense that I will use Sass from the outset, and I would like to be more deliberate in my implementation of its features. From our workflow over the past two days I learned that wireframing, while seemingly simple, in the sense that you are breaking a page down into a basic template, is not simple in the sense that there must be a very holistic approach, understanding how your individual elements and components relate to each other, and how your stylesheet will or will not hold those pieces together. I would also like to reach back to skills achieved on Monday and Tuesday, where I felt I implemented Sass more effectively including incorporating interpolation and utilizing built in Sass functions, such as color mixing.
+
+
+## Support and contact details
+
+_Please contact Kevin Boyle at papershack@gmail.com with any questions_
+
+## Technologies Used
+
+_Primarily HTML, CSS, Sass and Bootstrap Ver. 4.0.0beta.2_
+
+### License
+
+*Available for fair use by all under Creative Commons License*
+
+Copyright (c) 2017 **_Kevin Boyle_**
