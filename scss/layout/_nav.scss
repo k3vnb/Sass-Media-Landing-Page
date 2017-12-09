@@ -3,8 +3,7 @@
   position: fixed;
   z-index: 2;
   background-color: $yellow!important;
-  .navbar-brand {color: $darkpink;
-    text-shadow: 1px 0px .5px $blue-tier-two;}
+  .navbar-brand {@include brand-text;}
   .nav-link {color: $blue-tier-two!important;}
 }
 .nav-img {
