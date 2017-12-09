@@ -2,6 +2,10 @@
 ### This  project incorporates Sass, a compiler for CSS. 12/8/17
 ### by **Kevin Boyle**
 
+## Description
+
+_A responsive webpage design featuring responsive qualities of CSS including float & flex-box, as well as incorporation of Bootstrap grid elements, responsive utilities & navbar components. It can be found at https://lemurriot.github.io/Sass-Squash/ ._
+
 ### Pre-work
 1. Thoughts and Feedback
 The best thing about taking a designated amount of time to plan with a partner is that is enhances modular thinking throughout the project. Recognizing that the sections of the page can behave as independent pieces & co-dependent pieces, or that certain components may be repeated at various points on the page, allows a more universal scope of the project and streamlines the creation and revision processes.  It also allows for a more efficient "outside-in" approach to the creation of the page, which I find extremely effective.
