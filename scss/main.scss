@@ -1,3 +1,49 @@
 @import "base/module";
 @import "abstracts/module";
 @import "layout/module";
+.container-1, .containers {
+  overflow: auto;
+}
+.pic {
+  height: 200px;
+  width: 30%;
+  border: 1px solid black;
+}
+.pic1 {
+  background-image: url(../img/rollerc1.jpg);
+  flex-grow: 1;
+  width: 115px;
+}
+.pic2 {
+  background-image: url(../img/rollerc1.jpg);
+  background-size: contain;
+  flex-grow: 3;
+  width: 115px;
+}
+.pic3 {
+  background-color: $blue-tier-two;
+  flex-grow: 1;
+  width: 115px;
+}
+.pic4 {
+  background-image: url(../img/noble.png);
+  background-size: cover;
+  flex-grow: 1;
+}
+
+.pic5 {
+  width: 10%;
+  background-image: url(../img/rollerc1.jpg);
+  background-size: cover;
+  background-position: top;
+}
+.pic6 {
+  background-image: url(../img/noble.png);
+  background-size: cover;
+  flex-grow: 1;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
