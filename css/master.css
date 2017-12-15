@@ -98,6 +98,11 @@ body {
     background-position: 0 0; }
   to {
     background-position: 1000% 0; } }
+@keyframes tumbleweed {
+  0% {
+    transform: translateX(-200px); }
+  100% {
+    transform: translateX(400px); } }
 .container-1, .containers {
   overflow: auto; }
 
@@ -144,7 +149,8 @@ body {
 .pic4 {
   background-image: url(../img/noble.png);
   background-size: cover;
-  flex-grow: 1; }
+  flex-grow: 1;
+  overflow: hidden; }
 
 .pic4-filter {
   background: linear-gradient(to bottom, #ffc57842 0%, #fb9d23e0 100%);
@@ -158,9 +164,13 @@ body {
     display: none; }
   .pic4-filter:hover {
     opacity: 1; }
+    .pic4-filter:hover img {
+      display: block;
+      animation: tumbleweed 12s linear infinite; }
 
 .tumbleweed {
-  height: 30px; }
+  height: 80px;
+  margin-bottom: 20px; }
 
 .pic5 {
   width: 10%;
