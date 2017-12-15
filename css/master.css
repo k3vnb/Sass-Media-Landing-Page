@@ -47,7 +47,7 @@ body {
 
 .containers {
   padding: 3vh 3vw;
-  background-color: #ffb1bfa1; }
+  font-family: 'Open Sans Condensed', sans-serif; }
 
 .card-div {
   width: 100%;
@@ -57,7 +57,7 @@ body {
   align-items: space-between; }
   @media (min-width: 768px) {
     .card-div {
-      border: 1px solid black;
+      border: .5px solid lightgrey;
       background-color: #feff3938;
       padding: 2%; } }
 
@@ -66,8 +66,13 @@ body {
   flex-grow: 1;
   background-color: #edeef187;
   height: 33%;
+  max-height: 130px;
+  overflow: hidden;
   box-shadow: 4px 5px 7px #00000045;
   margin-bottom: 10px; }
+  .fields:hover {
+    background-color: #efedf1;
+    box-shadow: 5px 6px 8px #00000073; }
 
 .fields:last-child {
   margin-bottom: 0; }
@@ -76,16 +81,25 @@ body {
   overflow: hidden;
   width: 50%;
   height: 100%;
+  object-position: bottom;
   object-fit: cover; }
 
 .field-image img {
-  height: 100%;
+  min-height: 130px;
   width: 100%;
   object-fit: cover; }
 
 .field-text {
   flex-grow: 1;
-  width: 100%; }
+  width: 100%;
+  padding: 3%; }
+
+.field-text h6 {
+  text-align: center;
+  text-decoration: underline; }
+
+.field-text-p {
+  font-size: .8em; }
 
 @keyframes rollercoaster1 {
   from {
@@ -221,8 +235,14 @@ body {
   text-align: justify;
   padding-right: 5%; }
 
+h1, h3, h6 {
+  font-weight: bold; }
+
 @media (min-width: 768px) {
   .about-us-div, .card-div {
     width: 50%; } }
+
+body {
+  background: linear-gradient(135deg, #ffb1bf 0%, #ffb1bfa1 50%, #ffb1bf 100%); }
 
 /*# sourceMappingURL=master.css.map */

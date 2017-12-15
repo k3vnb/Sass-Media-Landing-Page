@@ -170,7 +170,13 @@
   text-align: justify;
   padding-right: 5%;
 }
+h1, h3, h6 {
+  font-weight: bold;
+}
 .about-us-div, .card-div {
   @media #{$md-view-up} {width: 50%;}
 
+}
+body {
+  background: linear-gradient(135deg, $pink 0%, $pink-transparent 50%, $pink 100%);
 }
