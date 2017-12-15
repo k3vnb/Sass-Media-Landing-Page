@@ -97,7 +97,7 @@ body {
   from {
     background-position: 0 0; }
   to {
-    background-position: 100% 0; } }
+    background-position: 1000% 0; } }
 .container-1, .containers {
   overflow: auto; }
 
@@ -120,19 +120,47 @@ body {
   flex-grow: 3;
   width: 115px; }
   .pic2:hover {
-    animation: rollercoaster2 5s linear infinite; }
+    animation: rollercoaster2 10s linear infinite; }
 
 .pic3 {
   background-color: #969cc7;
   flex-grow: 1;
-  width: 115px; }
+  width: 115px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  transition: background-color 1.5s ease; }
+  .pic3 img {
+    height: 0px;
+    width: 100px;
+    position: relative;
+    bottom: 0%;
+    transition: height 1.3s ease; }
   .pic3:hover {
     background-color: #ffb1bf; }
+    .pic3:hover img {
+      height: 100px; }
 
 .pic4 {
   background-image: url(../img/noble.png);
   background-size: cover;
   flex-grow: 1; }
+
+.pic4-filter {
+  background: linear-gradient(to bottom, #ffc57842 0%, #fb9d23e0 100%);
+  opacity: .5;
+  height: 100%;
+  width: 100%;
+  transition: opacity 3s ease;
+  display: flex;
+  align-items: flex-end; }
+  .pic4-filter img {
+    display: none; }
+  .pic4-filter:hover {
+    opacity: 1; }
+
+.tumbleweed {
+  height: 30px; }
 
 .pic5 {
   width: 10%;

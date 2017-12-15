@@ -15,9 +15,10 @@
       background-position: 0 0;
     }
     to {
-      background-position: 100% 0;
+      background-position: 1000% 0;
     }
 }
+
 
 .container-1, .containers {
   overflow: auto;
@@ -42,23 +43,60 @@
   flex-grow: 3;
   width: 115px;
   &:hover {
-    animation: rollercoaster2 5s linear infinite;
+    animation: rollercoaster2 10s linear infinite;
   }
 }
 .pic3 {
   background-color: $blue-tier-two;
   flex-grow: 1;
   width: 115px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  transition: background-color 1.5s ease;
+  img {
+    height: 0px;
+    width: 100px;
+    position: relative;
+    bottom: 0%;
+    // transition: width 1.3s ease;
+    transition: height 1.3s ease;
+  }
   &:hover {
     background-color: $pink-tier-two;
+    img {
+      height: 100px;
+      // display: block;
+    }
   }
 }
 .pic4 {
   background-image: url(../img/noble.png);
   background-size: cover;
   flex-grow: 1;
-}
+  }
+  // transition: background-image 1s ease-in-out;
+  // transition: background-position 3s ease-in;
 
+
+  .pic4-filter {
+    background: linear-gradient(to bottom, #ffc57842 0%,#fb9d23e0 100%);
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    transition: opacity 3s ease;
+    display: flex;
+    align-items: flex-end;
+    img {
+      display: none;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .tumbleweed {
+    height: 30px;
+  }
 .pic5 {
   width: 10%;
   background-image: url(../img/rollerc1.jpg);
