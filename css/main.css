@@ -88,6 +88,16 @@ body {
     .card .card-texts {
       text-shadow: 1px 1px 1px #ffb1bf; } }
 
+@keyframes rollercoaster1 {
+  from {
+    background-position: 50% 0; }
+  to {
+    background-position: 50% 100%; } }
+@keyframes rollercoaster2 {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 100% 0; } }
 .container-1, .containers {
   overflow: auto; }
 
@@ -100,17 +110,24 @@ body {
   background-image: url(../img/rollerc1.jpg);
   flex-grow: 1;
   width: 115px; }
+  .pic1:hover {
+    animation: rollercoaster1 15s linear infinite; }
 
 .pic2 {
   background-image: url(../img/rollerc1.jpg);
   background-size: contain;
+  background-repeat: repeat-x;
   flex-grow: 3;
   width: 115px; }
+  .pic2:hover {
+    animation: rollercoaster2 5s linear infinite; }
 
 .pic3 {
   background-color: #969cc7;
   flex-grow: 1;
   width: 115px; }
+  .pic3:hover {
+    background-color: #ffb1bf; }
 
 .pic4 {
   background-image: url(../img/noble.png);

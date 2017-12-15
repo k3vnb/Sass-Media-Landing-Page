@@ -1,6 +1,24 @@
 @import "base/module";
 @import "abstracts/module";
 @import "layout/module";
+
+@keyframes rollercoaster1 {
+    from {
+      background-position: 50% 0;
+    }
+    to {
+      background-position: 50% 100%;
+    }
+}
+@keyframes rollercoaster2 {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+}
+
 .container-1, .containers {
   overflow: auto;
 }
@@ -13,17 +31,27 @@
   background-image: url(../img/rollerc1.jpg);
   flex-grow: 1;
   width: 115px;
+  &:hover {
+    animation: rollercoaster1 15s linear infinite;
+  }
 }
 .pic2 {
   background-image: url(../img/rollerc1.jpg);
   background-size: contain;
+  background-repeat: repeat-x;
   flex-grow: 3;
   width: 115px;
+  &:hover {
+    animation: rollercoaster2 5s linear infinite;
+  }
 }
 .pic3 {
   background-color: $blue-tier-two;
   flex-grow: 1;
   width: 115px;
+  &:hover {
+    background-color: $pink-tier-two;
+  }
 }
 .pic4 {
   background-image: url(../img/noble.png);
