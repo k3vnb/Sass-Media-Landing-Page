@@ -100,9 +100,9 @@ body {
     background-position: 1000% 0; } }
 @keyframes tumbleweed {
   0% {
-    transform: translateX(-200px); }
+    transform: translateX(-400px); }
   100% {
-    transform: translateX(400px); } }
+    transform: translateX(1400px); } }
 .container-1, .containers {
   overflow: auto; }
 
@@ -169,19 +169,28 @@ body {
       animation: tumbleweed 12s linear infinite; }
 
 .tumbleweed {
-  height: 80px;
+  height: 60px;
   margin-bottom: 20px; }
 
 .pic5 {
   width: 10%;
   background-image: url(../img/rollerc1.jpg);
   background-size: cover;
-  background-position: top; }
+  background-position: top;
+  transition: background-image 1.5s ease-in; }
+  .pic5:hover {
+    background-image: url(../img/rcgif.gif); }
 
 .pic6 {
   background-image: url(../img/noble.png);
   background-size: cover;
-  flex-grow: 1; }
+  flex-grow: 1;
+  overflow: hidden; }
+  .pic6 img {
+    display: none; }
+  .pic6:hover img {
+    display: block;
+    animation: tumbleweed 10s linear infinite; }
 
 .gallery {
   display: flex;

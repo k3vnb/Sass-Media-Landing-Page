@@ -20,10 +20,10 @@
 }
 @keyframes tumbleweed {
   0% {
-    transform: translateX(-200px);
+    transform: translateX(-400px);
   }
   100% {
-    transform: translateX(400px);
+    transform: translateX(1400px);
   }
 
 }
@@ -110,7 +110,7 @@
     }
   }
   .tumbleweed {
-    height: 80px;
+    height: 60px;
     margin-bottom: 20px;
   }
 .pic5 {
@@ -118,11 +118,24 @@
   background-image: url(../img/rollerc1.jpg);
   background-size: cover;
   background-position: top;
+  transition: background-image 1.5s ease-in;
+  &:hover {
+    background-image: url(../img/rcgif.gif);
+  }
 }
 .pic6 {
   background-image: url(../img/noble.png);
   background-size: cover;
   flex-grow: 1;
+  overflow: hidden;
+  img {
+    display: none;
+  }
+  &:hover {
+    img {display: block;
+    animation: tumbleweed 10s linear infinite;
+  }
+  }
 }
 .gallery {
   display: flex;
