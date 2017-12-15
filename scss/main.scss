@@ -20,17 +20,27 @@
 }
 @keyframes tumbleweed {
   0% {
+    transform: translateX(400px);
+  }
+  100% {
+    transform: translateX(-1400px);
+  }
+}
+@keyframes horse {
+  0% {
     transform: translateX(-400px);
   }
   100% {
     transform: translateX(1400px);
   }
-
 }
 
 
 .container-1, .containers {
   overflow: auto;
+}
+.gallery {
+  overflow: hidden;
 }
 .pic {
   height: 200px;
@@ -84,6 +94,7 @@
   background-size: cover;
   flex-grow: 1;
   overflow: hidden;
+  z-index: 1;
   }
   // transition: background-image 1s ease-in-out;
   // transition: background-position 3s ease-in;
@@ -91,6 +102,7 @@
 
   .pic4-filter {
     background: linear-gradient(to bottom, #ffc57842 0%,#fb9d23e0 100%);
+    z-index: 2;
     opacity: .5;
     height: 100%;
     width: 100%;
@@ -100,12 +112,14 @@
     // overflow: hidden;
     img {
       display: none;
+      z-index: 1;
+      opacity: .8;
     }
     &:hover {
       opacity: 1;
       img {
         display: block;
-        animation: tumbleweed 12s linear infinite;
+        animation: tumbleweed 15s linear infinite;
       }
     }
   }
@@ -119,6 +133,7 @@
   background-size: cover;
   background-position: top;
   transition: background-image 1.5s ease-in;
+  z-index: 2;
   &:hover {
     background-image: url(../img/rcgif.gif);
   }
@@ -127,13 +142,13 @@
   background-image: url(../img/noble.png);
   background-size: cover;
   flex-grow: 1;
-  overflow: hidden;
+  z-index: 1;
   img {
     display: none;
   }
   &:hover {
     img {display: block;
-    animation: tumbleweed 10s linear infinite;
+    animation: horse 10s linear infinite;
   }
   }
 }

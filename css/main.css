@@ -49,44 +49,33 @@ body {
   padding: 3vh 3vw;
   background-color: #ffb1bfa1; }
 
-.card {
+.card-div {
+  min-height: 50vh;
   width: 100%;
-  margin-bottom: 10px;
-  min-height: 15vh;
-  border: 0;
-  border-radius: 5px; }
-  .card:hover {
-    background-color: #ffb1bf;
-    box-shadow: 0px 0px 5px #5d91cb; }
-  .card img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    overflow: hidden;
-    object-fit: cover;
-    object-position: center; }
-  .card .card-2 {
-    text-align: right; }
-  .card .card-texts {
-    padding: 3% 8%; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .card {
-      width: 33%;
-      float: left; }
-      .card .card-img {
-        display: none; }
-      .card .card-texts {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        color: black; } }
+  border: 1px solid black;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between; }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .card {
-    background-color: #5d91cb;
-    border-radius: 5px; }
-    .card .card-texts {
-      text-shadow: 1px 1px 1px #ffb1bf; } }
+.fields {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  height: 33%;
+  border: 1px solid green; }
+
+.field-image img {
+  height: 100%;
+  width: 30%;
+  object-fit: cover; }
+
+.field2 .field-image {
+  align-self: flex-end; }
+
+.field-text {
+  flex-grow: 1;
+  width: 70%; }
 
 @keyframes rollercoaster1 {
   from {
@@ -100,11 +89,19 @@ body {
     background-position: 1000% 0; } }
 @keyframes tumbleweed {
   0% {
+    transform: translateX(400px); }
+  100% {
+    transform: translateX(-1400px); } }
+@keyframes horse {
+  0% {
     transform: translateX(-400px); }
   100% {
     transform: translateX(1400px); } }
 .container-1, .containers {
   overflow: auto; }
+
+.gallery {
+  overflow: hidden; }
 
 .pic {
   height: 200px;
@@ -150,10 +147,12 @@ body {
   background-image: url(../img/noble.png);
   background-size: cover;
   flex-grow: 1;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 1; }
 
 .pic4-filter {
   background: linear-gradient(to bottom, #ffc57842 0%, #fb9d23e0 100%);
+  z-index: 2;
   opacity: .5;
   height: 100%;
   width: 100%;
@@ -161,12 +160,14 @@ body {
   display: flex;
   align-items: flex-end; }
   .pic4-filter img {
-    display: none; }
+    display: none;
+    z-index: 1;
+    opacity: .8; }
   .pic4-filter:hover {
     opacity: 1; }
     .pic4-filter:hover img {
       display: block;
-      animation: tumbleweed 12s linear infinite; }
+      animation: tumbleweed 15s linear infinite; }
 
 .tumbleweed {
   height: 60px;
@@ -177,7 +178,8 @@ body {
   background-image: url(../img/rollerc1.jpg);
   background-size: cover;
   background-position: top;
-  transition: background-image 1.5s ease-in; }
+  transition: background-image 1.5s ease-in;
+  z-index: 2; }
   .pic5:hover {
     background-image: url(../img/rcgif.gif); }
 
@@ -185,12 +187,12 @@ body {
   background-image: url(../img/noble.png);
   background-size: cover;
   flex-grow: 1;
-  overflow: hidden; }
+  z-index: 1; }
   .pic6 img {
     display: none; }
   .pic6:hover img {
     display: block;
-    animation: tumbleweed 10s linear infinite; }
+    animation: horse 10s linear infinite; }
 
 .gallery {
   display: flex;
