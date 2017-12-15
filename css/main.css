@@ -50,32 +50,42 @@ body {
   background-color: #ffb1bfa1; }
 
 .card-div {
-  min-height: 50vh;
   width: 100%;
-  border: 1px solid black;
-  padding: 5%;
+  padding: 5% 0;
   display: flex;
   flex-direction: column;
   align-items: space-between; }
+  @media (min-width: 768px) {
+    .card-div {
+      border: 1px solid black;
+      background-color: #feff3938;
+      padding: 2%; } }
 
 .fields {
   display: flex;
   flex-grow: 1;
-  width: 100%;
+  background-color: #edeef187;
   height: 33%;
-  border: 1px solid green; }
+  box-shadow: 4px 5px 7px #00000045;
+  margin-bottom: 10px; }
+
+.fields:last-child {
+  margin-bottom: 0; }
+
+.field-image {
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  object-fit: cover; }
 
 .field-image img {
   height: 100%;
-  width: 30%;
+  width: 100%;
   object-fit: cover; }
-
-.field2 .field-image {
-  align-self: flex-end; }
 
 .field-text {
   flex-grow: 1;
-  width: 70%; }
+  width: 100%; }
 
 @keyframes rollercoaster1 {
   from {
@@ -99,6 +109,10 @@ body {
     transform: translateX(1400px); } }
 .container-1, .containers {
   overflow: auto; }
+
+.container-1-heading {
+  text-align: center;
+  margin-bottom: 5vh; }
 
 .gallery {
   overflow: hidden; }
@@ -198,5 +212,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+@media (min-width: 768px) {
+  .main-content {
+    display: flex; } }
+
+.about-us-div {
+  text-align: justify;
+  padding-right: 5%; }
+
+@media (min-width: 768px) {
+  .about-us-div, .card-div {
+    width: 50%; } }
 
 /*# sourceMappingURL=main.css.map */

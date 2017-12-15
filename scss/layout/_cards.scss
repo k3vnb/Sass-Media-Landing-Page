@@ -37,32 +37,42 @@
 //   }
 // }
 .card-div {
-  min-height: 50vh;
   width: 100%;
-  border: 1px solid black;
-  padding: 5%;
+  padding: 5% 0;
   display: flex;
   flex-direction: column;
   align-items: space-between;
+    @media #{$md-view-up} {border: 1px solid black;
+    background-color: $yellow-tier-four;
+    padding: 2%;}
 }
 .fields {
   display: flex;
   flex-grow: 1;
-  // flex-direction: row;
-  // justify-content: flex-end;
-  width: 100%;
+  background-color: #edeef187;
+  // width: 100%;
   height: 33%;
-  border: 1px solid green;
+  box-shadow: 4px 5px 7px #00000045;
+  margin-bottom: 10px;
+}
+.fields:last-child {
+  margin-bottom: 0;
+}
+.field-image {
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
 }
 .field-image img {
   height: 100%;
-  width: 30%;
+  width: 100%;
   object-fit: cover;
 }
-.field2 .field-image {
-  align-self: flex-end;
-}
+// .field2 .field-image {
+//   align-self: flex-end;
+// }
 .field-text {
   flex-grow: 1;
-  width: 70%;
+  width: 100%;
 }
