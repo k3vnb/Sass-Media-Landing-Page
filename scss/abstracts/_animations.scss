@@ -1,0 +1,32 @@
+@keyframes rollercoaster1 {
+    from {
+      background-position: 50% 0;
+    }
+    to {
+      background-position: 50% 100%;
+    }
+}
+@keyframes rollercoaster2 {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 1000% 0;
+    }
+}
+@keyframes tumbleweed {
+  0% {
+    transform: translateX(400px);
+  }
+  100% {
+    transform: translateX(-1400px);
+  }
+}
+@keyframes horse {
+  0% {
+    transform: translateX(-600px);
+  }
+  100% {
+    transform: translateX(1400px);
+  }
+}

@@ -2,4 +2,10 @@
   padding: 3vh 3vw;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-// linear-gradient(135deg, #b3dced 0%,#29b8e5 50%,#bce0ee 100%)
+.container-1, .containers {
+  overflow: auto;
+}
+.container-1-heading {
+  text-align: center;
+  margin-bottom: 5vh;
+}

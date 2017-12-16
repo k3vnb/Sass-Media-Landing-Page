@@ -2,6 +2,26 @@ body {
   box-sizing: border-box;
   width: 100vw; }
 
+@keyframes rollercoaster1 {
+  from {
+    background-position: 50% 0; }
+  to {
+    background-position: 50% 100%; } }
+@keyframes rollercoaster2 {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 1000% 0; } }
+@keyframes tumbleweed {
+  0% {
+    transform: translateX(400px); }
+  100% {
+    transform: translateX(-1400px); } }
+@keyframes horse {
+  0% {
+    transform: translateX(-600px); }
+  100% {
+    transform: translateX(1400px); } }
 .navbar {
   width: 100%;
   position: fixed;
@@ -49,6 +69,28 @@ body {
   padding: 3vh 3vw;
   font-family: 'Open Sans Condensed', sans-serif; }
 
+.container-1, .containers {
+  overflow: auto; }
+
+.container-1-heading {
+  text-align: center;
+  margin-bottom: 5vh; }
+
+@media (min-width: 768px) {
+  .main-content {
+    display: flex; } }
+
+.about-us-div {
+  text-align: justify;
+  padding-right: 5%; }
+
+h1, h3, h6 {
+  font-weight: bold; }
+
+@media (min-width: 768px) {
+  .about-us-div, .card-div {
+    width: 50%; } }
+
 .card-div {
   width: 100%;
   padding: 5% 0;
@@ -58,7 +100,7 @@ body {
   @media (min-width: 768px) {
     .card-div {
       border: .5px solid lightgrey;
-      background-color: #feff3938;
+      background: linear-gradient(135deg, #969cc7 -30%, #ffb1bfa1 20%, #ffb1bf 200%);
       padding: 2%; } }
 
 .fields {
@@ -100,33 +142,6 @@ body {
 
 .field-text-p {
   font-size: .8em; }
-
-@keyframes rollercoaster1 {
-  from {
-    background-position: 50% 0; }
-  to {
-    background-position: 50% 100%; } }
-@keyframes rollercoaster2 {
-  from {
-    background-position: 0 0; }
-  to {
-    background-position: 1000% 0; } }
-@keyframes tumbleweed {
-  0% {
-    transform: translateX(400px); }
-  100% {
-    transform: translateX(-1400px); } }
-@keyframes horse {
-  0% {
-    transform: translateX(-400px); }
-  100% {
-    transform: translateX(1400px); } }
-.container-1, .containers {
-  overflow: auto; }
-
-.container-1-heading {
-  text-align: center;
-  margin-bottom: 5vh; }
 
 .gallery {
   overflow: hidden; }
@@ -209,7 +224,7 @@ body {
   transition: background-image 1.5s ease-in;
   z-index: 2; }
   .pic5:hover {
-    background-image: url(../img/rcgif.gif); }
+    background-image: url(../img/rollerc1.gif); }
 
 .pic6 {
   background-image: url(../img/noble.png);
@@ -226,21 +241,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-@media (min-width: 768px) {
-  .main-content {
-    display: flex; } }
-
-.about-us-div {
-  text-align: justify;
-  padding-right: 5%; }
-
-h1, h3, h6 {
-  font-weight: bold; }
-
-@media (min-width: 768px) {
-  .about-us-div, .card-div {
-    width: 50%; } }
 
 body {
   background: linear-gradient(135deg, #ffb1bf 0%, #ffb1bfa1 50%, #ffb1bf 100%); }
