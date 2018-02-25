@@ -1,5 +1,5 @@
 # Squash Media
-### This is a demo portfolio piece draft. 12/15/17
+### This is a demo landing page piece for SCSS stylings with CSS Animation. 12/15/17
 ### by **Kevin Boyle**
 
 ## Description
@@ -8,6 +8,10 @@ _A responsive webpage design featuring responsive qualities of CSS including fle
 
 ### Process
 _This project is an expansion upon a previous project._
+
+
+### Screenshot:
+![Screenshot](img/screenshota.png?raw=true)
 
 ## Support and contact details
 
