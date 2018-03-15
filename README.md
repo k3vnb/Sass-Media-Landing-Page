@@ -4,7 +4,7 @@
 
 ## Description
 
-_A responsive webpage design featuring responsive qualities of CSS including flex-box and Sass style media queries, as well as incorporation of Bootstrap grid elements, responsive utilities & navbar components. It can be found at https://lemurriot.github.io/portfolio-project/ ._
+_A responsive webpage design featuring responsive qualities of CSS including flex-box and Sass style media queries, as well as incorporation of Bootstrap grid elements, responsive utilities & navbar components. It can be found at https://lemurriot.github.io/Sass-Media-Landing-Page/ ._
 
 ### Process
 _This project is an expansion upon a previous project._
