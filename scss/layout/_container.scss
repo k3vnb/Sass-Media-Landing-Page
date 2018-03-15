@@ -1,11 +1,38 @@
+
+
 .containers {
   padding: 3vh 3vw;
   font-family: 'Open Sans Condensed', sans-serif;
+  h2 {
+    margin-left: 1%;
+  }
+  h3 {
+    text-align: center;
+    margin: 10% 0;
+    @media screen and (max-width: 767px){
+      margin: 3%;
+    }
+  }
+  h2, h3 {
+    color: #252222;
+    text-shadow: 0px .2px 1px #ffc1c1;
+  }
+  h1 {
+    color: #fe71a6;
+    font-size: 4em;
+    text-shadow: 0px .1px 1px #feff39;
+  }
 }
+
 .container-1, .containers {
   overflow: auto;
 }
 .container-1-heading {
   text-align: center;
   margin-bottom: 5vh;
+}
+
+.container2-header p {
+  margin-left: 1.1%;
+  font-size: 1.2em;
 }

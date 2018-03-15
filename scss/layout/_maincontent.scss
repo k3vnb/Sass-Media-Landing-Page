@@ -3,13 +3,13 @@
 }
 .about-us-div {
   text-align: justify;
-  padding-right: 5%;
+  padding: 0 3%;
 }
-h1, h3, h6 {
+h6 {
   font-weight: bold;
 }
 .about-us-div, .card-div {
-  @media #{$md-view-up} {width: 50%;}
+  @media #{$md-view-up} {width: 40%;}
 
 }
 
@@ -20,6 +20,7 @@ h1, h3, h6 {
   flex-direction: column;
   align-items: space-between;
     @media #{$md-view-up} {border: .5px solid lightgrey;
+      width: 60%;
     background: linear-gradient(135deg, $blue-tier-two -30%, $pink-transparent 20%, $pink-tier-two 200%);
     padding: 2%;}
 }
@@ -33,30 +34,36 @@ h1, h3, h6 {
   overflow: hidden;
   box-shadow: 4px 5px 7px #00000045;
   margin-bottom: 10px;
+  transition: transform .1s;
   &:hover {
     background-color: #efedf1;
     box-shadow: 5px 6px 8px #00000073;
+    transform: scale(1.01);
   }
 }
 .fields:last-child {
   margin-bottom: 0;
 }
 .field-image {
-  overflow: hidden;
   width: 50%;
-  height: 100%;
-  object-position: bottom;
-  object-fit: cover;
+  overflow: hidden;
+  position: relative;
+  img {
+    height: 250%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    vertical-align: top;
+    overflow: hidden;
+    width: auto;
+    object-fit: cover;
+  }
 }
-.field-image img {
-  min-height: 130px;
-  width: 100%;
-  object-fit: cover;
-}
+
 
 .field-text {
   flex-grow: 1;
-  width: 100%;
+  width: 50%;
   padding: 3%;
 }
 .field-text h6 {

@@ -13,6 +13,8 @@ _This project is an expansion upon a previous project._
 ### Screenshot:
 ![Screenshot](img/screenshota.png?raw=true)
 
+![Screenshot](img/screenshot.gif?raw=true)
+
 ## Support and contact details
 
 _Please contact Kevin Boyle at papershack@gmail.com with any questions_

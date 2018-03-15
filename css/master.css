@@ -25,7 +25,7 @@ body {
 .navbar {
   width: 100%;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   background-color: #feff39 !important; }
   .navbar .navbar-brand {
     color: #fe71a6;
@@ -68,6 +68,21 @@ body {
 .containers {
   padding: 3vh 3vw;
   font-family: 'Open Sans Condensed', sans-serif; }
+  .containers h2 {
+    margin-left: 1%; }
+  .containers h3 {
+    text-align: center;
+    margin: 10% 0; }
+    @media screen and (max-width: 767px) {
+      .containers h3 {
+        margin: 3%; } }
+  .containers h2, .containers h3 {
+    color: #252222;
+    text-shadow: 0px .2px 1px #ffc1c1; }
+  .containers h1 {
+    color: #fe71a6;
+    font-size: 4em;
+    text-shadow: 0px .1px 1px #feff39; }
 
 .container-1, .containers {
   overflow: auto; }
@@ -76,20 +91,24 @@ body {
   text-align: center;
   margin-bottom: 5vh; }
 
+.container2-header p {
+  margin-left: 1.1%;
+  font-size: 1.2em; }
+
 @media (min-width: 768px) {
   .main-content {
     display: flex; } }
 
 .about-us-div {
   text-align: justify;
-  padding-right: 5%; }
+  padding: 0 3%; }
 
-h1, h3, h6 {
+h6 {
   font-weight: bold; }
 
 @media (min-width: 768px) {
   .about-us-div, .card-div {
-    width: 50%; } }
+    width: 40%; } }
 
 .card-div {
   width: 100%;
@@ -100,6 +119,7 @@ h1, h3, h6 {
   @media (min-width: 768px) {
     .card-div {
       border: .5px solid lightgrey;
+      width: 60%;
       background: linear-gradient(135deg, #969cc7 -30%, #ffb1bfa1 20%, #ffb1bf 200%);
       padding: 2%; } }
 
@@ -111,29 +131,33 @@ h1, h3, h6 {
   max-height: 130px;
   overflow: hidden;
   box-shadow: 4px 5px 7px #00000045;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  transition: transform .1s; }
   .fields:hover {
     background-color: #efedf1;
-    box-shadow: 5px 6px 8px #00000073; }
+    box-shadow: 5px 6px 8px #00000073;
+    transform: scale(1.01); }
 
 .fields:last-child {
   margin-bottom: 0; }
 
 .field-image {
-  overflow: hidden;
   width: 50%;
-  height: 100%;
-  object-position: bottom;
-  object-fit: cover; }
-
-.field-image img {
-  min-height: 130px;
-  width: 100%;
-  object-fit: cover; }
+  overflow: hidden;
+  position: relative; }
+  .field-image img {
+    height: 250%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    vertical-align: top;
+    overflow: hidden;
+    width: auto;
+    object-fit: cover; }
 
 .field-text {
   flex-grow: 1;
-  width: 100%;
+  width: 50%;
   padding: 3%; }
 
 .field-text h6 {
