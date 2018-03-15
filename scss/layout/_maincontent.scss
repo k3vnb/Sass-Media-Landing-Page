@@ -39,7 +39,12 @@ h6 {
     background-color: #efedf1;
     box-shadow: 5px 6px 8px #00000073;
     transform: scale(1.01);
+    img {
+      position: absolute;
+      top: 0;
+    }
   }
+
 }
 .fields:last-child {
   margin-bottom: 0;
