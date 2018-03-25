@@ -6,9 +6,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  .masthead-text {padding: 37vh 5vw 1vh 50vw;
+  .masthead-text {
+    padding: 37vh 5vw 1vh 50vw;
     color: $yellow-tier-three;
     text-align: center;
     text-shadow: 0px 1px 3px $blue-tier-two;
+    animation: fade 1.5s ease-out;
   }
 }
