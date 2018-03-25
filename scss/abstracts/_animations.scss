@@ -30,3 +30,7 @@
     transform: translateX(1400px);
   }
 }
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
