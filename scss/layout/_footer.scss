@@ -2,10 +2,26 @@
   width: 100%;
   padding: 1vh 3vw;
   background-color: $yellow;
+  padding-left: 12%;
+  .row {
+      display: flex;
+  }
   ul {list-style: none;
   font-size: .9em;}
   .brand {margin-bottom: 3px;
     font-size: 1.2em;
     @include brand-text;}
+  .kvin_logo {
+    height: 55px;
+    animation: logo-spin 2s linear;
+  }
+}
 
+@keyframes logo-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
