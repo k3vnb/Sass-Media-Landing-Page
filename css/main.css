@@ -1,7 +1,27 @@
 body {
   box-sizing: border-box;
-  width: 100vw; }
+  width: 100vw;
+  height: 100%; }
 
+.spinner {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #f3f3f3;
+  border-top: 3px solid #f25a41;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation: spin 1s infinite; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 @keyframes rollercoaster1 {
   from {
     background-position: 50% 0; }
@@ -61,7 +81,10 @@ body {
 .footer {
   width: 100%;
   padding: 1vh 3vw;
-  background-color: #feff39; }
+  background-color: #feff39;
+  padding-left: 12%; }
+  .footer .row {
+    display: flex; }
   .footer ul {
     list-style: none;
     font-size: .9em; }
@@ -70,7 +93,15 @@ body {
     font-size: 1.2em;
     color: #fe71a6;
     text-shadow: 1px 0px 0.5px #969cc7; }
+  .footer .kvin_logo {
+    height: 55px;
+    animation: logo-spin 2s linear; }
 
+@keyframes logo-spin {
+  from {
+    transform: rotateY(0deg); }
+  to {
+    transform: rotateY(360deg); } }
 .containers {
   padding: 3vh 3vw;
   font-family: 'Open Sans Condensed', sans-serif; }
