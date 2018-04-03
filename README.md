@@ -11,9 +11,12 @@ _This project is an expansion upon a previous project._
 
 
 ### Screenshot:
-![Screenshot](img/screenshota.png?raw=true)
-
-![Screenshot](img/screenshot.gif?raw=true)
+#### Mobile View:
+![Screenshot](img/screenshot-mobile.png?raw=true)
+#### Mid-size Screen:
+![Screenshot](img/screenshot-mid.gif?raw=true)
+#### Full Screen:
+![Screenshot](img/screenshot-wide.gif?raw=true)
 
 ## Support and contact details
 
