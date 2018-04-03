@@ -13,10 +13,13 @@ _This project is an expansion upon a previous project._
 ### Screenshot:
 #### Mobile View:
 ![Screenshot](img/screenshot-mobile.png?raw=true)
+#### Animation Effects
+![Screenshot](img/screenshot.gif?raw=true)
+
 #### Mid-size Screen:
-![Screenshot](img/screenshot-mid.gif?raw=true)
+![Screenshot](img/screenshot-mid.png?raw=true)
 #### Full Screen:
-![Screenshot](img/screenshot-wide.gif?raw=true)
+![Screenshot](img/screenshot-wide.png?raw=true)
 
 ## Support and contact details
 
