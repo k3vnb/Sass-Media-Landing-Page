@@ -1,13 +1,10 @@
 # Squash Media
-### This is a demo landing page piece for SCSS stylings with CSS Animation. 12/15/17
+### This is a demo landing page piece feat. SCSS with CSS Animation. 12/2017
 ### by **Kevin Boyle**
 
 ## Description
 
-_A responsive webpage design featuring responsive qualities of CSS including flex-box and Sass style media queries, as well as incorporation of Bootstrap grid elements, responsive utilities & navbar components. It can be found at https://lemurriot.github.io/Sass-Media-Landing-Page/ ._
-
-### Process
-_This project is an expansion upon a previous project._
+_A responsive webpage designed and programmed using Sass/SCSS. It can be found at https://lemurriot.github.io/Sass-Media-Landing-Page/ ._
 
 
 ### Screenshot:

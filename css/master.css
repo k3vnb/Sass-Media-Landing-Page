@@ -96,6 +96,8 @@ body {
   .footer .kvin_logo {
     height: 55px;
     animation: logo-spin 2s linear; }
+    .footer .kvin_logo:hover {
+      animation: logo-spin 2s linear infinite; }
 
 @keyframes logo-spin {
   from {
