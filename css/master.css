@@ -82,7 +82,10 @@ body {
   width: 100%;
   padding: 1vh 3vw;
   background-color: #feff39;
-  padding-left: 12%; }
+  padding-left: 12%;
+  position: sticky;
+  bottom: -105px;
+  z-index: 100; }
   .footer .row {
     display: flex; }
   .footer ul {
@@ -310,5 +313,16 @@ h6 {
 
 body {
   background: linear-gradient(135deg, #ffb1bf 0%, #ffb1bfa1 50%, #ffb1bf 100%); }
+
+.parallax-div {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.parallax-window {
+  height: 200px;
+  width: 45%;
+  margin-top: 10%;
+  filter: blur(5%); }
 
 /*# sourceMappingURL=master.css.map */

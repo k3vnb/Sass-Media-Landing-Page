@@ -3,6 +3,9 @@
   padding: 1vh 3vw;
   background-color: $yellow;
   padding-left: 12%;
+  position: sticky;
+  bottom: -105px;
+  z-index: 100;
   .row {
       display: flex;
   }
