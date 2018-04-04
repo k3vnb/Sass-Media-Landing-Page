@@ -7,3 +7,14 @@
 body {
   background: linear-gradient(135deg, $pink 0%, $pink-transparent 50%, $pink-tier-two 100%);
 }
+.parallax-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.parallax-window {
+  height: 200px;
+  width: 45%;
+  margin-top: 10%;
+  filter: blur(5%);
+}

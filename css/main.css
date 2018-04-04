@@ -311,4 +311,15 @@ h6 {
 body {
   background: linear-gradient(135deg, #ffb1bf 0%, #ffb1bfa1 50%, #ffb1bf 100%); }
 
+.parallax-div {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.parallax-window {
+  height: 200px;
+  width: 45%;
+  margin-top: 10%;
+  filter: blur(5%); }
+
 /*# sourceMappingURL=main.css.map */
