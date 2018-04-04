@@ -82,7 +82,10 @@ body {
   width: 100%;
   padding: 1vh 3vw;
   background-color: #feff39;
-  padding-left: 12%; }
+  padding-left: 12%;
+  position: sticky;
+  bottom: -105px;
+  z-index: 100; }
   .footer .row {
     display: flex; }
   .footer ul {
