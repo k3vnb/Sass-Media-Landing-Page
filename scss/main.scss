@@ -8,7 +8,8 @@ body {
   background: linear-gradient(135deg, $pink 0%, $pink-transparent 50%, $pink-tier-two 100%);
 }
 .parallax-div {
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
   display: flex;
   justify-content: center;
 }
@@ -16,7 +17,7 @@ body {
   height: 200px;
   width: 45%;
   margin-top: 10%;
-  border: 12px groove #ffb4c1;
+  border: 15px groove #ffb4c1;
 }
 @media screen and (max-width: 900px){
   .parallax-div {
