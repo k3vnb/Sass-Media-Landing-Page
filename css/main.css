@@ -315,7 +315,8 @@ body {
   background: linear-gradient(135deg, #ffb1bf 0%, #ffb1bfa1 50%, #ffb1bf 100%); }
 
 .parallax-div {
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
   display: flex;
   justify-content: center; }
 
@@ -323,6 +324,10 @@ body {
   height: 200px;
   width: 45%;
   margin-top: 10%;
-  filter: blur(5%); }
+  border: 15px groove #ffb4c1; }
+
+@media screen and (max-width: 900px) {
+  .parallax-div {
+    flex-wrap: wrap; } }
 
 /*# sourceMappingURL=main.css.map */
