@@ -123,8 +123,11 @@ body {
     text-shadow: 0px .2px 1px #ffc1c1; }
   .containers h1 {
     color: #fe71a6;
-    font-size: 4em;
-    text-shadow: 0px .1px 1px #feff39; }
+    font-size: 5em;
+    text-shadow: 1px 1px 3px #feff39; }
+  .containers h5 {
+    color: white;
+    font-weight: bold; }
 
 .container-1, .containers {
   overflow: auto; }
@@ -329,5 +332,12 @@ body {
 @media screen and (max-width: 900px) {
   .parallax-div {
     flex-wrap: wrap; } }
+.title-area {
+  position: absolute;
+  bottom: -1%;
+  left: 35%; }
+
+.woodsign {
+  filter: hue-rotate(20deg); }
 
 /*# sourceMappingURL=main.css.map */

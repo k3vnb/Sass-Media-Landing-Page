@@ -24,3 +24,11 @@ body {
     flex-wrap: wrap;
   }
 }
+.title-area {
+  position: absolute;
+  bottom: -1%;
+  left: 35%;
+}
+.woodsign {
+  filter: hue-rotate(20deg);
+}
