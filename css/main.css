@@ -107,6 +107,9 @@ body {
     transform: rotateY(0deg); }
   to {
     transform: rotateY(360deg); } }
+@font-face {
+  font-family: SomeTimeLater;
+  src: url("/../fonts/SomeTimeLater.otf") format("opentype"); }
 .containers {
   padding: 3vh 3vw;
   font-family: 'Open Sans Condensed', sans-serif; }
@@ -122,12 +125,14 @@ body {
     color: #252222;
     text-shadow: 0px .2px 1px #ffc1c1; }
   .containers h1 {
+    font-family: SomeTimeLater;
     color: #fe71a6;
     font-size: 5em;
-    text-shadow: 1px 1px 3px #feff39; }
+    text-shadow: 1px 1px 2px #feff39; }
   .containers h5 {
     color: white;
-    font-weight: bold; }
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #9e2f59; }
 
 .container-1, .containers {
   overflow: auto; }

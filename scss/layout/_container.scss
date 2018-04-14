@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: SomeTimeLater;
+    src: url("/../fonts/SomeTimeLater.otf") format("opentype");
+}
 
 .containers {
   padding: 3vh 3vw;
@@ -18,13 +21,15 @@
     text-shadow: 0px .2px 1px #ffc1c1;
   }
   h1 {
+    font-family: SomeTimeLater;
     color: #fe71a6;
     font-size: 5em;
-    text-shadow: 1px 1px 3px #feff39;
+    text-shadow: 1px 1px 2px #feff39;
   }
   h5 {
     color: white;
     font-weight: bold;
+    text-shadow: 1px 1px 2px #9e2f59;
   }
 }
 
