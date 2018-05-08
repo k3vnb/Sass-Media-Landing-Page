@@ -156,17 +156,18 @@ body {
   padding: 3vh 3vw;
   font-family: 'Open Sans Condensed', sans-serif; }
   .containers h2 {
-    margin-left: 1%; }
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #212121; }
   .containers h3 {
+    font-family: komikax;
+    color: #e678a2;
+    text-shadow: 0px .2px 1px #190f0f;
     text-align: center;
     margin: 10% 0; }
     @media screen and (max-width: 767px) {
       .containers h3 {
         margin: 3%; } }
-  .containers h2, .containers h3 {
-    font-family: komikax;
-    color: #e678a2;
-    text-shadow: 0px .2px 1px #190f0f; }
   .containers h1 {
     font-family: SomeTimeLater;
     color: #e678a2;
@@ -185,11 +186,11 @@ body {
   margin-bottom: 5vh; }
 
 .container2-header p {
-  margin-left: 1.1%;
+  text-align: center;
   font-size: 1.2em; }
 
 .main-content {
-  margin-bottom: 5%; }
+  margin: 3% 0%; }
   @media (min-width: 768px) {
     .main-content {
       display: flex;
@@ -197,9 +198,10 @@ body {
 
 .about-us-div {
   text-align: justify;
-  padding: 0 3%;
+  padding: 0% 3% 3%;
+  border-radius: 5%;
   background-color: white;
-  box-shadow: inset 0px 0 50px 10px #e678a28a;
+  box-shadow: inset 0px 0 61px 20px #e678a200;
   margin-left: 2%; }
 
 h6 {
@@ -270,7 +272,8 @@ h6 {
   font-size: .8em; }
 
 .gallery {
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 10%; }
 
 .pic {
   height: 200px;
@@ -386,15 +389,15 @@ body {
   margin: .3%;
   border: .5px solid #ffb4c1; }
 
+.parallax-title {
+  text-align: center; }
+
+.parallax-p-tag {
+  text-align: center;
+  font-size: 1.2em; }
+
 @media screen and (max-width: 900px) {
   .parallax-div {
     flex-wrap: wrap; } }
-.title-area {
-  position: absolute;
-  bottom: -1%;
-  left: 35%; }
-
-.woodsign {
-  filter: hue-rotate(1deg) brightness(170%) drop-shadow(0px 0px 80px #ffbceb); }
 
 /*# sourceMappingURL=main.css.map */

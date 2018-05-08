@@ -11,19 +11,19 @@
   padding: 3vh 3vw;
   font-family: 'Open Sans Condensed', sans-serif;
   h2 {
-    margin-left: 1%;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #212121;
   }
   h3 {
+    font-family: komikax;
+    color: #e678a2;
+    text-shadow: 0px .2px 1px #190f0f;
     text-align: center;
     margin: 10% 0;
     @media screen and (max-width: 767px){
       margin: 3%;
     }
-  }
-  h2, h3 {
-    font-family: komikax;
-    color: #e678a2;
-    text-shadow: 0px .2px 1px #190f0f;
   }
   h1 {
     font-family: SomeTimeLater;
@@ -47,6 +47,6 @@
 }
 
 .container2-header p {
-  margin-left: 1.1%;
+  text-align: center;
   font-size: 1.2em;
 }

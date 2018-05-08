@@ -22,16 +22,15 @@ body {
   margin: .3%;
   border: .5px solid #ffb4c1;
 }
+.parallax-title {
+  text-align: center;
+}
+.parallax-p-tag {
+  text-align: center;
+  font-size: 1.2em;
+}
 @media screen and (max-width: 900px){
   .parallax-div {
     flex-wrap: wrap;
   }
-}
-.title-area {
-  position: absolute;
-  bottom: -1%;
-  left: 35%;
-}
-.woodsign {
-  filter: hue-rotate(1deg) brightness(170%) drop-shadow(0px 0px 80px #ffbceb);
 }
