@@ -1,9 +1,17 @@
 .main-content {
-  @media #{$md-view-up} {display: flex;}
+  margin: 3% 0%;
+  @media #{$md-view-up} {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 .about-us-div {
   text-align: justify;
-  padding: 0 3%;
+  padding: 0% 3% 3%;
+  border-radius: 5%;
+  background-color: white;
+  box-shadow: inset 0px 0 61px 20px #e678a200;
+  margin-left: 2%;
 }
 h6 {
   font-weight: bold;
