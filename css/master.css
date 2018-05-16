@@ -384,15 +384,24 @@ body {
   padding-top: 5%;
   height: 100%;
   width: 100%;
-  z-index: 4;
+  z-index: 6;
   animation: fade-in-image .5s; }
+  @media screen and (max-width: 665px) {
+    .walrus-div {
+      padding: 5%; } }
 
 .walrus-svg {
-  height: 480px;
-  width: 600px;
+  width: 100%;
+  max-height: 480px;
+  max-width: 600px;
   background-color: white;
   border: 1px inset black;
   overflow: hidden; }
+  .walrus-svg img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    object-position: center; }
 
 #close-button {
   max-height: 50px; }
