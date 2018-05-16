@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   position: fixed;
-  z-index: 3;
+  z-index: 5;
   background-color: $yellow!important;
   .navbar-brand {@include brand-text;}
   .nav-link {color: $blue-tier-two!important;}
