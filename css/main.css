@@ -149,9 +149,6 @@ body {
 @font-face {
   font-family: SomeTimeLater;
   src: url("/../fonts/SomeTimeLater.otf") format("opentype"); }
-@font-face {
-  font-family: komikax;
-  src: url("/../fonts/KOMIKAX_.ttf"); }
 .containers {
   padding: 3vh 3vw;
   font-family: 'Open Sans Condensed', sans-serif; }
@@ -160,9 +157,9 @@ body {
     font-family: "Arial Black", Gadget, sans-serif;
     color: #212121; }
   .containers h3 {
-    font-family: komikax;
-    color: #e678a2;
-    text-shadow: 0px .2px 1px #190f0f;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: #190f0f;
+    text-shadow: 1px 2px 1px #cc3c6d;
     text-align: center;
     margin: 10% 0; }
     @media screen and (max-width: 767px) {
@@ -199,7 +196,7 @@ body {
 .about-us-div {
   text-align: justify;
   padding: 0% 3% 3%;
-  border-radius: 5%;
+  border: 5px solid #e2799d7d;
   background-color: white;
   box-shadow: inset 0px 0 61px 20px #e678a200;
   margin-left: 2%; }
@@ -374,9 +371,31 @@ h6 {
 body {
   background: linear-gradient(135deg, #ffb1bf 0%, #ffb1bfa1 50%, #ffb1bf 100%); }
 
+.main-container {
+  position: relative; }
+
+.walrus-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  background-color: #000000cc;
+  padding-top: 5%;
+  height: 100%;
+  width: 100%; }
+
+.walrus-svg {
+  height: 480px;
+  width: 600px;
+  background-color: white;
+  border: 1px inset black;
+  overflow: hidden; }
+
 .parallax-div {
   width: 90%;
   margin-left: 5%;
+  margin-bottom: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
