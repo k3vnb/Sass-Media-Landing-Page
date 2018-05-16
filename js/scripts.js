@@ -6,6 +6,7 @@ window.addEventListener('load', function(){
   overlay.style.display = 'none';
 })
 // end of loading icon
+
 function showWalrus(e){
   e.preventDefault();
   let showTheWalrus = document.querySelector(".walrus-div");

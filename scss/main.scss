@@ -21,7 +21,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: 4;
-  transition: display 3s;
+  animation: fade-in-image .5s;
 }
 .walrus-svg {
   height: 480px;
@@ -29,6 +29,21 @@ body {
   background-color: white;
   border: 1px inset black;
   overflow: hidden;
+}
+#close-button {
+  max-height: 50px;
+  &:hover {
+    max-height: 51px;
+    cursor: pointer;
+  }
+}
+@keyframes fade-in-image {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
 }
 .parallax-div {
   width: 90%;
