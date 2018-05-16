@@ -7,9 +7,10 @@ window.addEventListener('load', function(){
 })
 // end of loading icon
 function showWalrus(){
-  alert("hello");
+  let showTheWalrus = document.querySelector(".walrus-div");
+  showTheWalrus.style.display = "flex";
 }
 const walrusLink = document.querySelector(".walrus-link");
 
 
-walrusLink.addEventListener("click", showWalrus, false);
+walrusLink.addEventListener("click", showWalrus);
